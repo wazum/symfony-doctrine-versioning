@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<psalm resolveFromConfigFile="true"
+       cacheDirectory="/tmp/"
+       errorLevel="7"
+       hideExternalErrors="true">
+    <projectFiles>
+        <directory name="src"/>
+        <directory name="tests"/>
+        <ignoreFiles>
+            <file name="tests/bootstrap.php"/>
+        </ignoreFiles>
+    </projectFiles>
+</psalm>
